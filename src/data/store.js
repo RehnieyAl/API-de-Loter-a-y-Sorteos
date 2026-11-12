@@ -1,4 +1,5 @@
-// Este arc
+// Base de datos en memoria para la aplicación de sorteos y ventas de tickets.
+// Simplemente se utiliza un objeto JavaScript para almacenar los datos en memoria.
 const bcrypt = require('bcryptjs');
 
 let db;

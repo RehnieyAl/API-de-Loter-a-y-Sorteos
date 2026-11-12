@@ -1,3 +1,5 @@
+//Auntenticación y autorización de usuarios mediante JWT (JSON Web Tokens).
+
 const jwt = require('jsonwebtoken');
 const { jwtSecret } = require('../config');
 const { buscarPorId } = require('../services/authService');

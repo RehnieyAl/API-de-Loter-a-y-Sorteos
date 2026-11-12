@@ -1,3 +1,5 @@
+// Servicio para la lógica de negocio del juego Baloto, incluyendo validación de jugadas, generación de jugadas aleatorias y cálculo de premios.
+
 const AppError = require('../utils/AppError');
 
 const MAX_NUMERO = 43;

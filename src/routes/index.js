@@ -1,3 +1,4 @@
+// Rutas de la API para autenticación, sorteos, tickets y caja.
 const { Router } = require('express');
 const { autenticar, permitir } = require('../middlewares/auth');
 const auth = require('../controllers/authController');

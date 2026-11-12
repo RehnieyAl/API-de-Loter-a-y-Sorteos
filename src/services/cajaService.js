@@ -1,3 +1,4 @@
+// Servicio para manejar operaciones relacionadas con la caja de un vendedor, incluyendo el resumen diario y el cierre de caja.
 const { getDb, nextId } = require('../data/store');
 const AppError = require('../utils/AppError');
 const { fechaLocal } = require('../utils/fechas');
