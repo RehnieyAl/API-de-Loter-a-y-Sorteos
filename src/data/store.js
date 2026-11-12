@@ -1,3 +1,4 @@
+// Este arc
 const bcrypt = require('bcryptjs');
 
 let db;

@@ -1,0 +1,24 @@
+ejemplo de variable de entorno .env
+# Servidor
+PORT=3000
+
+# JWT
+JWT_SECRET=rehni_loteria_clave_secreta_cambiar_en_produccion
+JWT_EXPIRES_IN=8h
+
+# Configuración
+ZONA_HORARIA=
+
+# Configuración de sorteos
+MINUTOS_ANULACION=
+MINUTOS_CIERRE_VENTAS=
+
+# Límites de apuesta
+APUESTA_MIN_CHANCE=
+APUESTA_MAX_CHANCE=
+
+# Baloto
+VALOR_BALOTO=
+
+# Premios
+DIAS_CADUCIDAD_PREMIO=

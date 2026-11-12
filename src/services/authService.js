@@ -1,3 +1,4 @@
+// Este archivo contiene los servicios de autenticación de usuarios y gestión de perfil de usuario.
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { getDb } = require('../data/store');

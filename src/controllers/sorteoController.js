@@ -1,3 +1,4 @@
+// Controlador para manejar las solicitudes relacionadas con los sorteos
 const sorteoService = require('../services/sorteoService');
 
 exports.listar = (req, res) => res.json(sorteoService.listar(req.query));

@@ -9,6 +9,7 @@ function autenticar(req, res, next) {
 
   try {
     const payload = jwt.verify(token, jwtSecret);
+    console.log("JWT válido:", payload);
     const usuario = buscarPorId(payload.id);
     if (!usuario || !usuario.activo) return next(new AppError('Usuario no válido', 401));
     req.usuario = usuario;
